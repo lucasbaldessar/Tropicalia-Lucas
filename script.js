@@ -1,10 +1,10 @@
 document.addEventListener('DOMContentLoaded', function(){
    const aumentaFonteBotao = document.getElementById('aumentar-fonte');
 
-   let tamnhoAtualFonte = 1;
+   let tamanhoAtualFonte = 1;
 
   aumentaFonteBotao.addEventListener('click', function(){
-      tamnhoAtualFonte += 0.1;
-      document.body.style.fontSize = `${tamnhoAtualFonte}rem`;
+      tamanhoAtualFonte += 0.1;
+      document.body.style.fontSize = `${tamanhoAtualFonte}rem`;
    });
 };
