@@ -139,7 +139,9 @@ h2 {
 /* chama classe do bootstrap para modificar a cor */
 .form-control {
     background-color: #F1EDEF;
-}.menu-acessibilidade{
+}
+
+.menu-acessibilidade{
     position: fixed;
     top:2rem;
     right:20px;
