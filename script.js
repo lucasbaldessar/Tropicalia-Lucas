@@ -1,5 +1,16 @@
 document.addEventListener('DOMContentLoaded', function () {
-   const aumentaFonteBotao = document.getElementById('aumentar-fonte');
+
+
+   const botaoacessibilidade = document.grtElementByid('botao-acessibilidade');
+   const opcoesDeAcessibilidade = document.grtElementByid(opcoes-acessibilidade);
+
+
+      botaoDeAcessibilidade.addEventListener('click', function(){
+      botaoDeAcessibilidade.classList.toggle('rotacao-botao')
+      botaoDeAcessibilidade.classList.toggle('apresenta-lista')
+})
+
+   const aumentaFonteBotao = document.getElementById('aumentar-fonte');]
    const diminuiFonteBotao = document.getElementById('diminuir-fonte');
 
    let tamanhoAtualFonte = 1;
