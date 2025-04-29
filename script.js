@@ -27,3 +27,10 @@ document.addEventListener('DOMContentLoaded', function () {
 
 
 });
+
+
+
+    scrollReveal(). ('#inicio', {delay: 500});
+    scrollReveal(). ('#galria', {delay: 500});
+    scrollReveal(). ('#tropicalia', {delay: 500});
+    scrollReveal(). ('#contato', {delay: 500});
